@@ -26,6 +26,7 @@ public class TorpedoStore {
                 FAILURE_RATE = Double.parseDouble(failureEnv);
             } catch (NumberFormatException nfe) {
                 FAILURE_RATE = 0.0;
+                
             }
         }
     }
